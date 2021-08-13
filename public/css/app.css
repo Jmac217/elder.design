@@ -31867,6 +31867,12 @@ video {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+@font-face {
+  font-family: Laguna-Hills;
+
+  src: url('/font/Laguna-Hills.ttf');
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;

@@ -1,7 +1,7 @@
 <template>
     <div class="alert alert-success" role="alert">
         <svg class="barcode"
-        jsbarcode-format="upc"
+        jsbarcode-format="upce"
         :jsbarcode-value="body"
         jsbarcode-textmargin="0"
         jsbarcode-fontoptions="bold">

@@ -37,7 +37,7 @@ Route::get('/contact', function () {
 
 Route::post('/messages', function(Request $request){
     $validated = $request->validate([
-        'text'=>'required|min:11|max:11'
+        'text'=>'required|min:6|max:6'
     ]);
     Message::create($validated);
     return redirect('/hello');
