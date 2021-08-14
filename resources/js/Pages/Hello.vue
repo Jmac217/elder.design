@@ -4,7 +4,7 @@
         <div
             v-for="(message, index) in messages"
             :key="index"
-            class="bg-white p-8 mb-4 rounded shadow"
+            class="flex-wrap bg-white p-4 m-4 rounded shadow"
         >
         <barcode :message="message.text" />
         </div>
